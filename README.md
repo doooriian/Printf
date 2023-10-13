@@ -27,27 +27,62 @@
 
 # :pushpin: Index
 
-* [What's this Repo?](#sparkles-What-is-Libft?)
+* [What's this Repo?](#sparkles-What-is-Printf?)
 * [List of Functions](#bookmark_tabs-List-of-Fucntions)
 * [Technologies](#computer-Technologies)
 * [How to Run](#construction_worker-How-to-Run)
-* [Find a Bug? Or somenthing need to change?](#bug-Issues)
+* [Tester](#link-Tester)
+* [My Libft Results](#white_check_mark-My-Libft-Results)
 
-# :sparkles: What is Libft?
+# :sparkles: What is Printf?
 
-Libft is an individual project at 42 that requires us to re-create some standard C library functions including some additional ones that can be used later to build a library of useful functions for the rest of the program.
+The printf function is one of the most versatile and well-known functions in the C language. From a testing aid to tabulation method, printf is a very powerful and important tool in every dev's kit. This project aims to recreate the behaviour of the original MacOS's printf, including its basic error management, some of its flags, minimum field width stipulation and most of its basic conversions. 
 
-At 42 we're not allowed to use some standard libraries on our projects, so we have to keep growing this library with our own functions as we go farther in the program.
+# :bookmark_tabs: List of Conversions
 
----
+<table>
+      <thead>
+        <tr>
+            <th colspan=3><h4>Specifiers</h4></th>
+        </tr>
+        <tr>
+            <th >Format Specifier</th>
+            <th >Description</th>
+        </tr>
+    </thead>
+    <tbody>
+	</thead>
+        <tr>
+            <td align="center">%</td>
+            <td>% followed by another % character writes % to the screen.</td>
+        </tr>
+        <tr>
+            <td align="center">c</td>
+            <td>writes a single character.</td>
+        </tr>
+        <tr>
+            <td align="center">s</td>
+            <td>writes a character string.</td>
+        </tr>
+        <tr>
+            <td align="center">p</td>
+            <td>writes an implementation-defined character sequence defining a pointer address.</td>
+        </tr>
+        <tr>
+            <td align="center">d or i</td>
+            <td>writes a signed integer to decimal representation.</td>
+        </tr>
+        <tr>
+            <td align="center">u</td>
+            <td>writes an unsigned integer to decimal representation.</td>
+        </tr>
+        <tr>
+            <td align="center">x or X</td>
+            <td>writes an unsigned integer to hexadecimal representation.</td>
+        </tr>
+        <tr>
+<table>
 
-# :bookmark_tabs: List of Fucntions
-
-## Functions from `<ctype.h>`
-
-
-
----
 
 # :computer: Technologies
 
@@ -59,22 +94,31 @@ This Project was made with:
 * [gcc](https://terminaldeinformacao.com/2015/10/08/como-instalar-e-configurar-o-gcc-no-windows-mingw/)
 
 # :construction_worker: How to Run
-```bash
-# *************COMMANDS************ #
-# run - run compile all the libtest with the your libft and run the all tests
-$ make all
-# clean - remove the .o and .c files 
-$ make clean
-# fclean - remove the .o and .c files and the .a
-$ make fclean
-# re - remove all files and remake all
-$ make re
+### Requirements
 
+The function is written in C language and thus needs the **`gcc` compiler** and some standard **C libraries** to run.
+
+### Instructions
+
+**1. Compiling the library**
+
+To compile, go to the library path and run:
+
+```shell
+$ make
+```
+
+**2. Using it in your code**
+
+To use the library functions in your code, simply include its header:
+
+```C
+#include "ft_printf.h"
 ```
 # 🔗 Link to a third party Tester
 
-One of the testers I used : [LibftTester](https://github.com/Tripouille/libftTester)
+One of the testers I used : [printfTester](https://github.com/Tripouille/printfTester)
 
-# :white_check_mark: My Libft Results
+# :white_check_mark: My Printf Results
 
 ![Votre Score](https://github.com/doooriian/42-Badges/blob/main/badges/LibftGrade.png)
