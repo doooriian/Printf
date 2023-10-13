@@ -121,4 +121,4 @@ One of the testers I used : [printfTester](https://github.com/Tripouille/printfT
 
 # :white_check_mark: My Printf Results
 
-![Votre Score](https://github.com/doooriian/42-Badges/blob/main/badges/LibftGrade.png)
+![Votre Score](https://github.com/doooriian/42-Badges/blob/main/badges/100Grade.png)
